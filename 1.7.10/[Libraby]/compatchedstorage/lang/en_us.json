@@ -1,0 +1,12 @@
+{
+  "block.compatchedstorage.chest_builder": "§fChest Builder",
+  "block.compatchedstorage.barrel": "§fBarrel",
+  "block.compatchedstorage.fluid_barrel": "§fDrum",
+  "itemGroup.compatchedstorage": "§fComPatchedStorage",
+  "compatchedstorage.text.columns": "§fColumns",
+  "compatchedstorage.text.rows": "§fRows",
+  "compatchedstorage.text.hue": "§fHue",
+  "compatchedstorage.backpack.inv": "§fBackpack",
+  "compatchedstorage.chest.inv": "§fChest (%sx%s)",
+  "compatchedstorage.text.fluidformat": "§f%s/%smB"
+}

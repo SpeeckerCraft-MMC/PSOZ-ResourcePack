@@ -1,0 +1,8 @@
+{
+  "_comment": "-------------------------]  UI & MESSAGES  [------------------------------------------------",
+  "create.gui.stockswitch.startAt": "§fStart Signal at",
+  "create.gui.stockswitch.startAbove": "§fStart Signal above",
+  "create.gui.stockswitch.stopAt": "§fStop Signal at",
+  "create.gui.stockswitch.stopBelow": "§fStop Signal below",
+  "itemGroup.create": "§fCreate"
+}

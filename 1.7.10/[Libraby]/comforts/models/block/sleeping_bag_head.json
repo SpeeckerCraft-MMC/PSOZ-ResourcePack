@@ -1,0 +1,23 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "comforts:blocks/sleeping_bag/head_top",
+		"top": "comforts:blocks/sleeping_bag/head_top",
+		"bottom": "comforts:blocks/sleeping_bag/head_bottom",
+		"parts": "comforts:blocks/parts"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 3, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down", "tintindex": 0 },
+				"up": { "uv": [ 0, 16, 16, 0 ], "texture": "#top", "rotation": 90 },
+				"south": { "uv": [ 0, 9, 16, 12 ], "texture": "#parts", "cullface": "south", "tintindex": 0 },
+				"west": { "uv": [ 0, 12, 16, 15 ], "texture": "#parts", "cullface": "west", "tintindex": 0 },
+				"east": { "uv": [ 0, 12, 16, 15 ], "texture": "#parts", "cullface": "east", "tintindex": 0 }
+			}
+		}
+	]
+}
