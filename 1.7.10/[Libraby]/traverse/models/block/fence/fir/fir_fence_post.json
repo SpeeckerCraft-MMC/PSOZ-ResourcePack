@@ -1,0 +1,24 @@
+{
+	"__comment": "Designed by HanFox with Cubik - http://bdcraft.net",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "traverse:block/fir_planks",
+		"texture": "traverse:block/fir_fence"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Centre Post Bottom",
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 16, 10 ],
+			"faces": {
+				"down": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture", "cullface": "up" },
+				"north": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

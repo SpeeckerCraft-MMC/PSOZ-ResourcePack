@@ -1,0 +1,12 @@
+{
+    "block.rftoolspower.dimensionalcell": "\u00A7fDimensional Cell",
+    "block.rftoolspower.dimensionalcell_simple": "\u00A7fDimensional Cell (Simple)",
+    "block.rftoolspower.dimensionalcell_advanced": "\u00A7fDimensional Cell (Advanced)",
+    "block.rftoolspower.dimensionalcell_creative": "\u00A7fDimensional Cell (Creative)",
+    "block.rftoolspower.cell1": "\u00A7fPowercell (Low)",
+    "block.rftoolspower.cell2": "\u00A7fPowercell (Medium)",
+    "block.rftoolspower.cell3": "\u00A7fPowercell (High)",
+    "block.rftoolspower.coalgenerator": "\u00A7fCoal Generator",
+
+    "itemGroup.rftoolspower": "\u00A7fRFTools Power"
+}

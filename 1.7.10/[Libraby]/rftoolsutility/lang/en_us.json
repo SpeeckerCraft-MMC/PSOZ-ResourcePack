@@ -1,0 +1,17 @@
+{
+    "item.rftoolsutility.charged_porter": "\u00A7fCharged Porter",
+    "item.rftoolsutility.advanced_charged_porter": "\u00A7fAdvanced Charged Porter",
+
+    "block.rftoolsutility.crafter1": "\u00A7fCrafter Tier 1",
+    "block.rftoolsutility.crafter2": "\u00A7fCrafter Tier 2",
+    "block.rftoolsutility.crafter3": "\u00A7fCrafter Tier 3",
+    "block.rftoolsutility.matter_booster": "\u00A7fMatter Booster",
+    "block.rftoolsutility.matter_transmitter": "\u00A7fMatter Transmitter",
+    "block.rftoolsutility.matter_receiver": "\u00A7fMatter Receiver",
+    "block.rftoolsutility.dialing_device": "\u00A7fDialing Device",
+    "block.rftoolsutility.tank": "\u00A7fTank",
+    "block.rftoolsutility.screen": "\u00A7fScreen",
+    "block.rftoolsutility.creative_screen": "\u00A7fCreative Screen",
+
+    "itemGroup.rftoolsutility": "\u00A7fRFTools Utility"
+}

@@ -1,0 +1,12 @@
+{
+  "block.torcherino.torcherino": "§fTorcherino",
+  "block.torcherino.compressed_torcherino": "§fCompressed Torcherino",
+  "block.torcherino.double_compressed_torcherino": "§fDouble Compressed Torcherino",
+  "block.torcherino.lanterino": "§fJack o'Lanterino",
+  "block.torcherino.compressed_lanterino": "§fCompressed Jack o'Lanterino",
+  "block.torcherino.double_compressed_lanterino": "§fDouble Compressed Jack o'Lanterino",
+  "gui.torcherino.speed": "§fSpeed: %s%%",
+  "gui.torcherino.x_range": "§fX Range: %s Blocks",
+  "gui.torcherino.z_range": "§fZ Range: %s Blocks",
+  "gui.torcherino.y_range": "§fY Range: %s Blocks"
+}

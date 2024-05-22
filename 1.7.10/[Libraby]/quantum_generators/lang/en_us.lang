@@ -1,0 +1,6 @@
+quantum_generators.qg.phsp_gen=§2Photonic Quantum Generator
+quantum_generators.qg.nsp_gen=§1Neutron Quantum Generator
+quantum_generators.qg.bsp_gen=§fBaryon Quantum Generator
+quantum_generators.qg.adsp_gen=§eHadron Quantum Generator
+quantum_generators.qg.grasp_gen=§bGraviton Quantum Generator
+quantum_generators.qg.kvsp_gen=§6Quark Quantum Generator 

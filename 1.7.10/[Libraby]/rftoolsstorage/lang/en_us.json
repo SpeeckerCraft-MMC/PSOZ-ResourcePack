@@ -1,0 +1,10 @@
+{
+    "item.rftoolsstorage.storage_module_tablet": "\u00A7fStorage Tablet",
+
+    "block.rftoolsstorage.modular_storage": "\u00A7fModular Storage",
+    "block.rftoolsstorage.remote_storage": "\u00A7fRemote Storage",
+    "block.rftoolsstorage.storage_scanner": "\u00A7fStorage Scanner",
+
+    "_comment": "Creative Tabs",
+    "itemGroup.rftoolsstorage": "\u00A7fRFTools Storage"
+}

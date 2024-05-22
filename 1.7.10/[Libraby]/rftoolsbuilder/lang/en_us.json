@@ -1,0 +1,12 @@
+{
+    "block.rftoolsbuilder.builder": "\u00A7fBuilder",
+    "block.rftoolsbuilder.composer": "\u00A7fComposer",
+    "block.rftoolsbuilder.projector": "\u00A7fProjector",
+    "block.rftoolsbuilder.scanner": "\u00A7fScanner",
+    "block.rftoolsbuilder.remote_scanner": "\u00A7fRemote Scanner",
+    "block.rftoolsbuilder.locator": "\u00A7fLocator",
+    "block.rftoolsbuilder.space_chamber": "\u00A7fSpace Chamber Corner Block",
+    "block.rftoolsbuilder.space_chamber_controller": "\u00A7fSpace Chamber Controller Block",
+
+    "itemGroup.rftoolsbuilder": "\u00A7fRFTools Builder"
+}

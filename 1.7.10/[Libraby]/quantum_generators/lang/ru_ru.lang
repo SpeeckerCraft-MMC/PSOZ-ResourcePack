@@ -1,0 +1,6 @@
+quantum_generators.qg.phsp_gen=§2Фотонный квантовый генератор
+quantum_generators.qg.nsp_gen=§1Нейтронный квантовый генератор
+quantum_generators.qg.bsp_gen=§fБарионный квантовый генератор
+quantum_generators.qg.adsp_gen=§eАдронный квантовый генератор
+quantum_generators.qg.grasp_gen=§bГравитонный квантовый генератор
+quantum_generators.qg.kvsp_gen=§6Кварковый квантовый генератор
