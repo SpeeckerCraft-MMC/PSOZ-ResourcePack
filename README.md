@@ -15,4 +15,8 @@ If you are the owner of one of the used textures and want to be credited for it:
 If you own one of the used textures and dont want them in here:
   - Please contact me with a request for removal.
 
+# Known Bugs:
+
+  - Transparent/Black world (no rendered blocks): Just hop into another World/Server or reload textures with F3+T to fix this.
+
 # Credits:
