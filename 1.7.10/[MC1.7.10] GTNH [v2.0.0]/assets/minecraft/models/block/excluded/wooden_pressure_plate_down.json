@@ -1,0 +1,35 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "gold_block": "blocks/planks_oak",
+        "particle": "blocks/planks_oak"
+    },
+    "elements": [
+        {
+            "from": [1,0,1],
+            "to": [15,0.5,15],
+            "faces": {
+                "up": {
+                    "texture": "#gold_block"
+                },
+                "down": {
+                    "texture": "#gold_block",
+                    "cullface": down
+                },
+                "west": {
+                    "texture": "#gold_block"
+                },
+                "east": {
+                    "texture": "#gold_block"
+                },
+                "north": {
+                    "texture": "#gold_block"
+                },
+                "south": {
+                    "texture": "#gold_block"
+                }
+            }
+        }
+    ]
+}

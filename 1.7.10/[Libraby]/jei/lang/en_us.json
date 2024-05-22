@@ -1,0 +1,18 @@
+{
+  "_comment": "Recipe Categories",
+  "gui.jei.editMode.description": "§fJEI Hide Ingredients Mode:",
+  "gui.jei.editMode.description.hide": "§f%s-Click to Hide",
+  "gui.jei.editMode.description.hide.wild": "§f%s-right-click to Hide by Wildcard",
+  "gui.jei.category.craftingTable": "§fCrafting",
+  "gui.jei.category.smelting": "§fSmelting",
+  "gui.jei.category.smoking": "§fSmoking",
+  "gui.jei.category.blasting": "§fBlasting",
+  "gui.jei.category.campfire": "§fCampfire Cooking",
+  "gui.jei.category.smelting.experience": "§f%s XP",
+  "gui.jei.category.fuel": "§fFuel",
+  "gui.jei.category.fuel.smeltCount.single": "§fSmelts 1 item",
+  "gui.jei.category.fuel.smeltCount": "§fSmelts %s items",
+  "gui.jei.category.brewing": "§fBrewing",
+  "gui.jei.category.brewing.steps": "§fSteps: %s",
+  "gui.jei.category.itemInformation": "§fInformation"
+}

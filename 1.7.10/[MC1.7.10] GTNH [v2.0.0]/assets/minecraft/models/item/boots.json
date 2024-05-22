@@ -1,0 +1,92 @@
+{
+	"parent": "item/chestplate",
+	"display": {
+		"gui": {
+            "rotation": [ -22.5, -180, 0 ],
+            "translation": [ 0, 6, 0],
+            "scale":[ 1.4, 1.4, 1.4 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 4, 0],
+            "scale":[ 1.25, 1.25, 1.25 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 90, 90, 0 ],
+            "translation": [ 0, 0, 3],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -45, 0, 15 ],
+            "translation": [ 0, 5, -1.5 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        }
+    },
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "armor"
+	},
+    "elements": [
+        {
+            "from": [4,0,6],
+            "to": [8,12,10],
+            "faces": {
+                "up": {
+					"uv": [1,8,2,10],
+                    "texture": "armor"
+                },
+                "down": {
+					"uv": [2,8,3,10],
+                    "texture": "armor"
+                },
+                "west": {
+					"uv": [2,10,3,16],
+                    "texture": "armor"
+                },
+                "east": {
+					"uv": [0,10,1,16],
+                    "texture": "armor"
+                },
+                "north": {
+					"uv": [1,10,2,16],
+                    "texture": "armor"
+                },
+                "south": {
+					"uv": [3,10,4,16],
+                    "texture": "armor"
+                }
+            }
+        },
+        {
+            "from": [8,0,6],
+            "to": [12,12,10],
+            "faces": {
+                "up": {
+					"uv": [1,8,2,10],
+                    "texture": "armor"
+                },
+                "down": {
+					"uv": [2,8,3,10],
+                    "texture": "armor"
+                },
+                "west": {
+					"uv": [3,10,2,16],
+                    "texture": "armor"
+                },
+                "east": {
+					"uv": [1,10,0,16],
+                    "texture": "armor"
+                },
+                "north": {
+					"uv": [2,10,1,16],
+                    "texture": "armor"
+                },
+                "south": {
+					"uv": [4,10,3,16],
+                    "texture": "armor"
+                }
+            }
+        }
+    ]
+}

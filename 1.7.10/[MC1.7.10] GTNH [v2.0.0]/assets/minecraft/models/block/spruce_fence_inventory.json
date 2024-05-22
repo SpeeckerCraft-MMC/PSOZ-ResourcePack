@@ -1,0 +1,154 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/planks_spruce_3d",
+        "spruce-planks": "blocks/planks_spruce_3d"
+    },
+    "elements": [
+        {
+            "from": [7.5,12,0],
+            "to": [8.5,13,16],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        },
+        {
+            "from": [7,0,0],
+            "to": [7.5,16,4],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        },
+        {
+            "from": [8.5,0,4],
+            "to": [9,16,8],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        },
+        {
+            "from": [7,0,8],
+            "to": [7.5,16,12],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        },
+        {
+            "from": [8.5,0,12],
+            "to": [9,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        },
+        {
+            "from": [7.5,4,0],
+            "to": [8.5,5,16],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        }
+    ]
+}

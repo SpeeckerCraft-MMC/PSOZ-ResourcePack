@@ -1,0 +1,84 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,16,0],
+            "shade": false,
+            "faces": {
+                "north": {
+                    "texture": "#all", "cullface": "north"
+                },
+                "south": {
+                    "texture": "#all"
+                }
+            }
+        },
+        {
+            "from": [0,0,16],
+            "to": [16,16,16],
+            "shade": false,
+            "faces": {
+                "south": {
+                    "texture": "#all", "cullface": "south"
+                },
+                "north": {
+                    "texture": "#all"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [16,0,16],
+            "shade": false,
+            "faces": {
+                "down": {
+                    "texture": "#all", "cullface": "down"
+                },
+                "up": {
+                    "texture": "#all"
+                }
+            }
+        },
+        {
+            "from": [0,16,0],
+            "to": [16,16,16],
+            "shade": false,
+            "faces": {
+                "up": {
+                    "texture": "#all", "cullface": "up"
+                },
+                "down": {
+                    "texture": "#all"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [0,16,16],
+            "shade": false,
+            "faces": {
+                "west": {
+                    "texture": "#all", "cullface": "west"
+                },
+                "east": {
+                    "texture": "#all"
+                }
+            }
+        },
+        {
+            "from": [16,0,0],
+            "to": [16,16,16],
+            "shade": false,
+            "faces": {
+                "east": {
+                    "texture": "#all", "cullface": "east"
+                },
+                "west": {
+                    "texture": "#all"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "textures": [
+            "galacticraftcore:blocks/deco_block_half_ctm"
+        ]
+    }
+}

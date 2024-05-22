@@ -1,0 +1,8 @@
+{
+    "parent": "item/inv_cube_topped",
+    "textures": {
+        "all": "blocks/log_birch",
+        "top": "blocks/log_birch_top",
+        "glow": "outlines/outline_standard"
+    } 
+}

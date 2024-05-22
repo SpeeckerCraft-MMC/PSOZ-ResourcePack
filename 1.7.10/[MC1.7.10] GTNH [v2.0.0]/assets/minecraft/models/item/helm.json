@@ -1,0 +1,111 @@
+{
+	"display": {
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, -90 ],
+            "translation": [ 0, 0, 0],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 25, 15 ],
+            "translation": [ 4, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "gui": {
+            "rotation": [ 20, -160, 0 ],
+            "translation": [ 0, -2, 0 ],
+            "scale": [ 0.65, 0.65, 0.65 ]
+        }
+    },
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "armor"
+	},
+    "elements": [
+        {
+            "from": [-0.001,0,0],
+            "to": [0,16,16],
+			"comment__": "east",
+            "faces": {
+                "west": {
+					"uv": [4,4,6,8],
+                    "texture": "armor"
+                },
+                "east": {
+					"uv": [6,4,4,8],
+                    "texture": "armor"
+                }
+            }
+        },
+        {
+            "from": [16.001,0,0],
+            "to": [16,16,16],
+			"comment__": "westeros",
+            "faces": {
+                "west": {
+					"uv": [2,4,0,8],
+                    "texture": "armor"
+                },
+                "east": {
+					"uv": [0,4,2,8],
+                    "texture": "armor"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [16,16,-0.001],
+			"comment__": "southFRONT",
+            "faces": {
+                "north": {
+					"uv": [2,4,4,8],
+                    "texture": "armor"
+                },
+                "south": {
+					"uv": [4,4,2,8],
+                    "texture": "armor"
+                }
+            }
+        },
+        {
+            "from": [0,0,16],
+            "to": [16,16,16.001],
+			"comment__": "northBACK",
+            "faces": {
+                "north": {
+					"uv": [8,4,6,8],
+                    "texture": "armor"
+                },
+                "south": {
+					"uv": [6,4,8,8],
+                    "texture": "armor"
+                }
+            }
+        },
+        {
+            "from": [0,16,0],
+            "to": [16,16.001,16],
+			"comment__": "top",
+            "faces": {
+                "up": {
+					"uv": [2,0,4,4],
+                    "texture": "armor"
+                },
+                "down": {
+					"uv": [2,0,4,4],
+                    "texture": "armor"
+                }
+            }
+        }
+    ]
+}

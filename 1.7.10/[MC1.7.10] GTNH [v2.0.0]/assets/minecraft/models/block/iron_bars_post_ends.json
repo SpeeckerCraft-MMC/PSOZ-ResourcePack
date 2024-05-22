@@ -1,0 +1,106 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/iron_bars",
+        "iron_bars": "blocks/iron_bars"
+    },
+    "elements": [
+        {
+            "from": [7.5,0,7.5],
+            "to": [8.5,0.5,8.5],
+            "faces": {
+                "up": {
+                    "texture": "#iron_bars"
+                },
+                "down": {
+                    "texture": "#iron_bars"
+                },
+                "west": {
+                    "texture": "#iron_bars"
+                },
+                "east": {
+                    "texture": "#iron_bars"
+                },
+                "north": {
+                    "texture": "#iron_bars"
+                },
+                "south": {
+                    "texture": "#iron_bars"
+                }
+            }
+        },
+        {
+            "from": [7.5,15.5,7.5],
+            "to": [8.5,16,8.5],
+            "faces": {
+                "up": {
+                    "texture": "#iron_bars"
+                },
+                "down": {
+                    "texture": "#iron_bars"
+                },
+                "west": {
+                    "texture": "#iron_bars"
+                },
+                "east": {
+                    "texture": "#iron_bars"
+                },
+                "north": {
+                    "texture": "#iron_bars"
+                },
+                "south": {
+                    "texture": "#iron_bars"
+                }
+            }
+        },
+        {
+            "from": [7.75,0.5,7.75],
+            "to": [8.25,15.5,8.25],
+            "faces": {
+                "up": {
+                    "texture": "#iron_bars"
+                },
+                "down": {
+                    "texture": "#iron_bars"
+                },
+                "west": {
+                    "texture": "#iron_bars"
+                },
+                "east": {
+                    "texture": "#iron_bars"
+                },
+                "north": {
+                    "texture": "#iron_bars"
+                },
+                "south": {
+                    "texture": "#iron_bars"
+                }
+            }
+        },
+        {
+            "from": [7.5,7.5,7.5],
+            "to": [8.5,8.5,8.5],
+            "faces": {
+                "up": {
+                    "texture": "#iron_bars"
+                },
+                "down": {
+                    "texture": "#iron_bars"
+                },
+                "west": {
+                    "texture": "#iron_bars"
+                },
+                "east": {
+                    "texture": "#iron_bars"
+                },
+                "north": {
+                    "texture": "#iron_bars"
+                },
+                "south": {
+                    "texture": "#iron_bars"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": true,
+    "textures": {
+		"sapling": "#sapling",
+		"pot": "tritonmodel/pot_tree",
+        "particle": "#sapling"
+    },
+    "elements": [
+        {
+            "from": [6,0,6],
+            "to": [10,14,10],
+			"shade": false,
+            "faces": {
+                "west": {
+                    "uv": [12,8,16,16],
+                    "texture": "#sapling"
+                },
+                "east": {
+                    "uv": [12,8,16,16],
+                    "texture": "#sapling"
+                },
+                "north": {
+                    "uv": [12,8,16,16],
+                    "texture": "#sapling"
+                },
+                "south": {
+                    "uv": [12,8,16,16],
+                    "texture": "#sapling"
+                }
+            }
+        },
+        {
+            "from": [2,5,2],
+            "to": [14,11,14],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "uv": [0,0,10,10],
+                    "texture": "#sapling"
+                },
+                "west": {
+                    "uv": [0,10,12,16],
+                    "texture": "#sapling"
+                },
+                "east": {
+                    "uv": [0,10,12,16],
+                    "texture": "#sapling"
+                },
+                "north": {
+                    "uv": [0,10,12,16],
+                    "texture": "#sapling"
+                },
+                "south": {
+                    "uv": [0,10,12,16],
+                    "texture": "#sapling"
+                }
+            }
+        },
+        {
+            "from": [5,11,5],
+            "to": [11,16,11],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "uv": [12,0,16,4],
+                    "texture": "#sapling"
+                },
+                "west": {
+                    "uv": [12,4,16,8],
+                    "texture": "#sapling"
+                },
+                "east": {
+                    "uv": [12,4,16,8],
+                    "texture": "#sapling"
+                },
+                "north": {
+                    "uv": [12,4,16,8],
+                    "texture": "#sapling"
+                },
+                "south": {
+                    "uv": [12,4,16,8],
+                    "texture": "#sapling"
+                }
+            }
+        },
+        {
+            "from": [5,0,5],
+            "to": [11,4,11],
+			"shade": false,
+            "faces": {
+                "up": {
+                    "uv": [6,4,12,10],
+                    "texture": "#pot"
+                },
+                "down": {
+                    "uv": [0,4,6,10],
+                    "texture": "#pot"
+                },
+                "north": {
+                    "uv": [0,10,6,12],
+                    "texture": "#pot"
+                },
+                "south": {
+                    "uv": [6,0,12,4],
+                    "texture": "#pot"
+                },
+                "west": {
+                    "uv": [0,0,6,4],
+                    "texture": "#pot"
+                },
+                "east": {
+                    "uv": [6,10,12,14],
+                    "texture": "#pot"
+                }
+            }
+		}
+    ]
+}

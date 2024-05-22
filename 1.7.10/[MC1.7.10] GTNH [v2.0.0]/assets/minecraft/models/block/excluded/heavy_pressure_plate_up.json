@@ -1,0 +1,35 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "iron_block": "blocks/iron_block",
+        "particle": "blocks/iron_block"
+    },
+    "elements": [
+        {
+            "from": [1,0,1],
+            "to": [15,1,15],
+            "faces": {
+                "up": {
+                    "texture": "#iron_block"
+                },
+                "down": {
+                    "texture": "#iron_block",
+                    "cullface": down
+                },
+                "west": {
+                    "texture": "#iron_block"
+                },
+                "east": {
+                    "texture": "#iron_block"
+                },
+                "north": {
+                    "texture": "#iron_block"
+                },
+                "south": {
+                    "texture": "#iron_block"
+                }
+            }
+        }
+    ]
+}

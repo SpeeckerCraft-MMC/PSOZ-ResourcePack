@@ -1,0 +1,34 @@
+{   "parent": "block/block",
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/planks_spruce_3d",
+        "spruce-planks": "blocks/planks_spruce_3d"
+    },
+    "elements": [
+        {
+            "from": [6.75,0,6.75],
+            "to": [9.25,16,9.25],
+            "faces": {
+                "up": {
+                    "texture": "#spruce-planks"
+                },
+                "down": {
+                    "texture": "#spruce-planks"
+                },
+                "west": {
+                    "texture": "#spruce-planks"
+                },
+                "east": {
+                    "texture": "#spruce-planks"
+                },
+                "north": {
+                    "texture": "#spruce-planks"
+                },
+                "south": {
+                    "texture": "#spruce-planks"
+                }
+            }
+        }
+    ]
+}
