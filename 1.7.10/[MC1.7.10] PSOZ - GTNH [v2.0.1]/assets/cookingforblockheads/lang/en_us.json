@@ -1,0 +1,19 @@
+{
+  "block.cookingforblockheads.cooking_table": "§fCooking Table",
+  "block.cookingforblockheads.fridge": "§fFridge",
+  "block.cookingforblockheads.counter": "§fKitchen Counter",
+  "block.cookingforblockheads.cabinet": "§fKitchen Cabinet",
+  "block.cookingforblockheads.oven": "§fOven",
+  "block.cookingforblockheads.fruit_basket": "§fFruit Basket",
+  "block.cookingforblockheads.spice_rack": "§fSpice Rack",
+  "block.cookingforblockheads.cutting_board": "§fCutting Board",
+  "gui.cookingforblockheads:no_ingredients": "§fNot\\nenough\\ningredients",
+  "gui.cookingforblockheads:no_selection": "§fSelect an item\\non the right to\\nsee its recipe.",
+  "container.cookingforblockheads.oven": "§fCooking Oven",
+  "container.cookingforblockheads.fridge": "§fFridge",
+  "container.cookingforblockheads.spice_rack": "§fSpice Rack",
+  "container.cookingforblockheads.counter": "§fKitchen Counter",
+  "container.cookingforblockheads.cabinet": "§fKitchen Cabinet",
+  "container.cookingforblockheads.fruit_basket": "§fFruit Basket",
+  "itemGroup.cookingforblockheads": "§fCooking for Blockheads"
+}

@@ -1,7 +1,0 @@
-{
-    "parent": "item/inv_slab",
-    "textures": {
-        "all": "blocks/planks_jungle",
-        "glow": "outlines/outline_standard"
-    } 
-}

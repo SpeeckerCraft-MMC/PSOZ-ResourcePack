@@ -1,8 +1,0 @@
-{
-    "parent": "item/inv_cube_topped",
-    "textures": {
-        "all": "blocks/hay_block_side",
-        "top": "blocks/hay_block_top",
-        "glow": "outlines/outline_standard"
-    } 
-}

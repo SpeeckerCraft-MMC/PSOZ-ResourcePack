@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "normal": [
-            { "model": "red_sandstone_chiseled"},
-            { "model": "red_sandstone_chiseled_1"},
-			{ "model": "red_sandstone_chiseled_2"}
-        ]
-	}
-}

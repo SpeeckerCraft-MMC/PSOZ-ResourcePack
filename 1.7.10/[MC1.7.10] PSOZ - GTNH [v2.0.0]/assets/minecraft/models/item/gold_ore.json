@@ -1,7 +1,0 @@
-{
-    "parent": "item/inv_cube",
-    "textures": {
-        "all": "blocks/gold_ore",
-        "glow": "outlines/outline_standard"
-    } 
-}

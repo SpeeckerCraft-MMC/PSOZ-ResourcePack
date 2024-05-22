@@ -1,6 +1,0 @@
-{
-    "parent": "block/saplings",
-    "textures": {
-        "sapling": "tritonmodel/sapling_acacia"
-    }
-}

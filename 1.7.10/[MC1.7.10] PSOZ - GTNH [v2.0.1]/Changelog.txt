@@ -1,0 +1,57 @@
+v1.0.0
+    Added/Integrated PSOZ MC 1.7.10
+    Added/Integrated Sphax GTNH Pack
+    Added/Integrated Nelliks GUIs (With Override)
+        - Chisel GUIs (incompatible)
+    Added/Integrated UU-TEx Main (No Override)
+    Added/Integrated UU-Tex Patch (No Override)
+    Added/Integrated Dark.UI (No Override)
+    Added/Integrated DynamicDuoGTNH (No Override)
+    Added/Integrated GTNH_Textures_32x32_Usernm.1_15.2022-10-30 (No Override)
+    Added/Integrated JSTR-Alk-GTNH_1.5 (No Override)
+    Added/Integrated GTNH-Faithful (No Override)
+
+v1.0.1
+    Fixed minecraft, but kept new font
+
+v1.1.0
+    Added/Integrated Realistic Sky GT New Horizons (Partially)
+    Fixed Unmatching Nelliks GUIs that were too new to fit with 1.7.10 slots
+
+v1.2.0
+    Added Futura font (Sampsa)
+    Added Transparent HUD (Sampsa)
+
+v1.3.0
+    Fixed previous issues
+
+v1.3.1
+    Fixed:
+        - Botania:
+            - Mana Diamond
+            - Removed outdated Mana Diamond/Pearl/Powder textures
+        - BetterP2P:
+            - Updated/Replaced GUI
+
+v1.3.2
+	Added:
+		- Replaced selected Textures with Ivelitex Art
+		- HotFix: BetterP2P GUI
+
+v1.3.3
+	Added:
+		- bibliocraft/textures/custompaintings
+			- Added Custom Paintings
+		- bpp/textures/items
+			- itemSpade.png as the updated texture is ugly af
+
+v2.0.0
+    Complete recreation from scratch
+	- removed any mod not included in GTNH
+
+v2.0.1
+    - Fixed missed textures:
+        - cropsnh
+        - miscutils
+    - fixed unwanted overlays
+        - gregtech
