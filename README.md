@@ -1,7 +1,7 @@
 # PSOZ-ResourcePack:
 
 Official PSOZ ResourcePack. <br />
-This is a custom mixpack with various resourcepacks and individual textures thrown together <br />
+This is a custom mixpack with various resourcepacks and individual textures thrown together. <br />
 These were collected over the years of playing and arranged by me for a better gaming experience.
 
 # Legal Note:
