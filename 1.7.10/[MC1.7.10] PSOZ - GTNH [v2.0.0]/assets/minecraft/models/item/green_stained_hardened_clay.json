@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_cube",
+    "textures": {
+        "all": "blocks/hardened_clay_stained_green",
+        "glow": "outlines/outline_standard"
+    } 
+}

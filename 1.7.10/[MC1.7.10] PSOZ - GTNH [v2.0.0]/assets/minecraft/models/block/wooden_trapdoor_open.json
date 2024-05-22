@@ -1,0 +1,7 @@
+{
+    "parent": "block/trapdoor_open",
+    "textures": {
+        "texture": "blocks/trapdoor",
+        "side": "tritonmodel/red_sandstone_toppers"
+    }
+}

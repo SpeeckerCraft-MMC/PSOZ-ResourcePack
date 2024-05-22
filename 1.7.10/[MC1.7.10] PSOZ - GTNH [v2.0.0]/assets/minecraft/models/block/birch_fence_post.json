@@ -1,0 +1,76 @@
+{   "parent": "block/block",
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "birch_planks": "blocks/planks_birch_3d",
+        "particle": "blocks/planks_birch_3d"
+    },
+    "elements": [
+        {
+            "from": [7,0,7],
+            "to": [9,15.25,9],
+            "faces": {
+                "down": {
+                    "texture": "#birch_planks"
+                },
+                "west": {
+                    "texture": "#birch_planks"
+                },
+                "east": {
+                    "texture": "#birch_planks"
+                },
+                "north": {
+                    "texture": "#birch_planks"
+                },
+                "south": {
+                    "texture": "#birch_planks"
+                }
+            }
+        },
+        {
+            "from": [6.75,15.25,6.75],
+            "to": [9.25,15.5,9.25],
+            "faces": {
+                "down": {
+                    "texture": "#birch_planks"
+                },
+                "west": {
+                    "texture": "#birch_planks"
+                },
+                "east": {
+                    "texture": "#birch_planks"
+                },
+                "north": {
+                    "texture": "#birch_planks"
+                },
+                "south": {
+                    "texture": "#birch_planks"
+                }
+            }
+        },
+        {
+            "from": [6.5,15.5,6.5],
+            "to": [9.5,16,9.5],
+            "faces": {
+                "up": {
+                    "texture": "#birch_planks"
+                },
+                "down": {
+                    "texture": "#birch_planks"
+                },
+                "west": {
+                    "texture": "#birch_planks"
+                },
+                "east": {
+                    "texture": "#birch_planks"
+                },
+                "north": {
+                    "texture": "#birch_planks"
+                },
+                "south": {
+                    "texture": "#birch_planks"
+                }
+            }
+        }
+    ]
+}

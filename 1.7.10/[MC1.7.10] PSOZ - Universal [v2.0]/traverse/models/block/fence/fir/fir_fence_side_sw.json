@@ -1,0 +1,32 @@
+{
+	"__comment": "Designed by HanFox with Cubik - http://bdcraft.net",
+	"parent": "block/block",
+	"textures": {
+		"particle": "traverse:block/fir_planks",
+		"texture": "traverse:block/fir_fence"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Upper horizontal bar of left-hand gate door",
+			"from": [ 7, 12, 10 ],
+			"to": [ 9, 15, 16 ],
+			"faces": {
+				"down": { "uv": [ 9, 6, 7, 4.75 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 9, 0, 7, 6 ], "texture": "#texture", "rotation": 180 },
+				"west": { "uv": [ 0.5, 0, 3.5, 3 ], "texture": "#texture" },
+				"east": { "uv": [ 3.5, 0, 6.5, 3 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Lower horizontal bar of left-hand gate door",
+			"from": [ 7, 7, 10 ],
+			"to": [ 9, 10, 16 ],
+			"faces": {
+				"down": { "uv": [ 9, 6, 7, 4.75 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 9, 0, 7, 6 ], "texture": "#texture", "rotation": 180 },
+				"west": { "uv": [ 0.5, 3, 3.5, 6 ], "texture": "#texture" },
+				"east": { "uv": [ 3.5, 3, 6.5, 6 ], "texture": "#texture" }
+			}
+		}
+	]
+}

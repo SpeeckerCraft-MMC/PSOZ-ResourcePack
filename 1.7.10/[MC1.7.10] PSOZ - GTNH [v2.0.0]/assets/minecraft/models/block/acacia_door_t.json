@@ -1,0 +1,272 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "blocks/planks_acacia_base",
+		"particle": "blocks/planks_acacia_base",
+		"metal": "blocks/cauldron_inner"
+	},
+	"elements": [
+		{
+			"name": "Hinge",
+			"from": [-0.25, -1, -0.0625],
+			"to": [3.25, 1, 0.9375],
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 2], "texture": "#metal"},
+				"east": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"south": {"uv": [0, 0, 3.5, 2], "texture": "#metal"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"up": {"uv": [0, 0, 3.5, 1], "texture": "#metal"},
+				"down": {"uv": [0, 0, 3.5, 1], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Hinge",
+			"from": [-0.25, 10, -0.0625],
+			"to": [3.25, 12, 0.9375],
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 2], "texture": "#metal"},
+				"east": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"south": {"uv": [0, 0, 3.5, 2], "texture": "#metal"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"up": {"uv": [0, 0, 3.5, 1], "texture": "#metal"},
+				"down": {"uv": [0, 0, 3.5, 1], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [-0.5, -0.25, 14.25],
+			"to": [3.5, 0.25, 14.75],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0.5], "texture": "#metal"},
+				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#metal"},
+				"south": {"uv": [0, 0, 4, 0.5], "texture": "#metal"},
+				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#metal"},
+				"up": {"uv": [0, 0, 4, 0.5], "texture": "#metal"},
+				"down": {"uv": [0, 0, 4, 0.5], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [-1, -0.5, 13],
+			"to": [-0.5, 0.5, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"east": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 2], "texture": "#metal"},
+				"down": {"uv": [0, 0, 0.5, 2], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [3.5, -0.5, 13],
+			"to": [4, 0.5, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"east": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 2], "texture": "#metal"},
+				"down": {"uv": [0, 0, 0.5, 2], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [-1.5, -0.5, 11.5],
+			"to": [-1, 0.5, 13.5],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"east": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 2], "texture": "#metal"},
+				"down": {"uv": [0, 0, 0.5, 2], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [4, -0.5, 11.5],
+			"to": [4.5, 0.5, 13.5],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"east": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"west": {"uv": [0, 0, 2, 1], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 2], "texture": "#metal"},
+				"down": {"uv": [0, 0, 0.5, 2], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [3.5, -0.5, 11],
+			"to": [4, 0.5, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"down": {"uv": [0, 0, 0.5, 1], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [-1, -0.5, 11],
+			"to": [-0.5, 0.5, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#metal"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#metal"},
+				"up": {"uv": [0, 0, 0.5, 1], "texture": "#metal"},
+				"down": {"uv": [0, 0, 0.5, 1], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Top Diag Vert",
+			"from": [0, 0, 14],
+			"to": [1.5, 14, 15.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 8, 14, 9.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Top Diag Vert",
+			"from": [0.875, 0, 14],
+			"to": [2.375, 14, 15.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.875, 0, 14]},
+			"faces": {
+				"east": {"uv": [0, 5, 14, 6.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Top Diag Vert",
+			"from": [0, 0, 2],
+			"to": [1.5, 14, 3.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 0, 2]},
+			"faces": {
+				"west": {"uv": [0, 5, 14, 6.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Top Diag Vert",
+			"from": [0.875, 0, 2],
+			"to": [2.375, 14, 3.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.875, 0, 2]},
+			"faces": {
+				"south": {"uv": [0, 8, 14, 9.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0, 12.5, 2],
+			"to": [1.5, 14, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 14, 2]},
+			"faces": {
+				"west": {"uv": [2, 2, 14, 3], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0.875, 12.5, 2],
+			"to": [2.375, 14, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.875, 14, 2]},
+			"faces": {
+				"down": {"uv": [2, 2, 14, 3], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Door Top",
+			"from": [0, 0, 14],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [13, 2, 16, 16], "texture": "#texture"},
+				"east": {"uv": [0, 3, 16, 5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 10, 16, 12], "texture": "#texture", "rotation": 90},
+				"up": {"uv": [0, 0, 3, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Door Top",
+			"from": [0, 0, 0],
+			"to": [3, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 10, 16, 12], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 2, 3, 16], "texture": "#texture"},
+				"west": {"uv": [0, 3, 16, 5], "texture": "#texture", "rotation": 90},
+				"up": {"uv": [0, 0, 3, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Door Top",
+			"from": [0, 14, 2],
+			"to": [3, 16, 14],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 2], "texture": "#texture"},
+				"east": {"uv": [0, 0, 16, 2], "texture": "#texture"},
+				"south": {"uv": [0, 0, 3, 2], "texture": "#texture"},
+				"west": {"uv": [0, 0, 16, 2], "texture": "#texture"},
+				"up": {"uv": [0, 0, 16, 3], "texture": "#texture", "rotation": 90},
+				"down": {"uv": [16, 15, 0, 12], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Door Top",
+			"from": [1, 0, 13],
+			"to": [2, 13, 14],
+			"faces": {
+				"north": {"uv": [0, 7, 13, 8], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [2, 3, 3, 16], "texture": "#texture"},
+				"west": {"uv": [13, 3, 14, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Door Top",
+			"from": [1, 13, 2],
+			"to": [2, 14, 14],
+			"faces": {
+				"east": {"uv": [2, 0, 14, 1], "texture": "#texture"},
+				"west": {"uv": [2, 0, 14, 1], "texture": "#texture"},
+				"down": {"uv": [14, 3, 2, 2], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Door Top",
+			"from": [1, 0, 2],
+			"to": [2, 13, 3],
+			"faces": {
+				"east": {"uv": [13, 3, 14, 16], "texture": "#texture"},
+				"south": {"uv": [0, 7, 13, 8], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [2, 3, 3, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Vert",
+			"from": [0.5, 0, 6],
+			"to": [2, 14, 7.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 0, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 6, 14, 7.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 4, 14, 5.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 2, 14, 3.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Vert",
+			"from": [0.5, 0, 10],
+			"to": [2, 14, 11.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 0, 10]},
+			"faces": {
+				"north": {"uv": [0, 4, 14, 5.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 2, 14, 3.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 0, 14, 1.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 6, 14, 7.5], "texture": "#texture", "rotation": 90}
+			}
+		}
+	]
+}

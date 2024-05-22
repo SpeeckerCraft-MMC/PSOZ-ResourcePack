@@ -1,0 +1,240 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "iron_door_upper": "blocks/door_iron_upper",
+        "particle": "blocks/door_iron_upper"
+    },
+    "elements": [
+        {
+            "from": [0,0,14.75],
+            "to": [1.5,16,16],
+            "faces": {
+                "up": {
+                    "uv": [0,14.75,1.25,16],
+                    "texture": "#iron_door_upper",
+                    "rotation": 90
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                },
+                "north": {
+                    "uv": [0,0,1.28125,16],
+                    "texture": "#iron_door_upper"
+                },
+                "south": {
+                    "uv": [0,0,1.28125,16],
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.25,1.25,13.75],
+            "to": [1.25,14.75,14.75],
+            "faces": {
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "uv": [14.75,1.25,13.75,14.75],
+                    "texture": "#iron_door_upper"
+                },
+                "north": {
+                    "uv": [1.125,1.25,0.125,14.75],
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.25,1.25,2.25],
+            "to": [1.25,2.25,13.75],
+            "faces": {
+                "up": {
+                    "texture": "#iron_door_upper"
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.5,2.25,10.75],
+            "to": [1,13.75,11.25],
+            "faces": {
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                },
+                "north": {
+                    "texture": "#iron_door_upper"
+                },
+                "south": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.5,7.75,1.25],
+            "to": [1,8.25,14.75],
+            "faces": {
+                "up": {
+                    "uv": [2.25,10.75,13.75,11.25],
+                    "texture": "#iron_door_upper"
+                },
+                "down": {
+                    "uv": [2.25,10.75,13.75,11.25],
+                    "texture": "#iron_door_upper"
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.5,2.25,7.75],
+            "to": [1,13.75,8.25],
+            "faces": {
+                "west": {
+                    "uv": [10.75,2.25,11.25,13.75],
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "uv": [10.75,2.25,11.25,13.75],
+                    "texture": "#iron_door_upper"
+                },
+                "north": {
+                    "texture": "#iron_door_upper"
+                },
+                "south": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.5,2.25,4.75],
+            "to": [1,13.75,5.25],
+            "faces": {
+                "west": {
+                    "uv": [10.75,2.25,11.25,13.75],
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "uv": [10.75,2.25,11.25,13.75],
+                    "texture": "#iron_door_upper"
+                },
+                "north": {
+                    "texture": "#iron_door_upper"
+                },
+                "south": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0,0,1.25],
+            "to": [1.5,1.25,14.75],
+            "faces": {
+                "up": {
+                    "uv": [1.25,14.75,14.75,16],
+                    "texture": "#iron_door_upper",
+                    "rotation": 90
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [1.5,16,1.25],
+            "faces": {
+                "up": {
+                    "uv": [0,14.75,1.25,16],
+                    "texture": "#iron_door_upper",
+                    "rotation": 90
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                },
+                "north": {
+                    "uv": [0,0,1.28125,16],
+                    "texture": "#iron_door_upper"
+                },
+                "south": {
+                    "uv": [0,0,1.28125,16],
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.25,1.25,1.25],
+            "to": [1.25,14.75,2.25],
+            "faces": {
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "uv": [2.25,1.25,1.25,14.75],
+                    "texture": "#iron_door_upper"
+                },
+                "south": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0.25,13.75,2.25],
+            "to": [1.25,14.75,13.75],
+            "faces": {
+                "down": {
+                    "texture": "#iron_door_upper"
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        },
+        {
+            "from": [0,14.75,1.25],
+            "to": [1.5,16,14.75],
+            "faces": {
+                "up": {
+                    "uv": [1.25,14.75,14.75,16],
+                    "texture": "#iron_door_upper",
+                    "rotation": 90
+                },
+                "down": {
+                    "uv": [1.25,14.75,14.75,16],
+                    "texture": "#iron_door_upper",
+                    "rotation": 90
+                },
+                "west": {
+                    "texture": "#iron_door_upper"
+                },
+                "east": {
+                    "texture": "#iron_door_upper"
+                }
+            }
+        }
+    ]
+}

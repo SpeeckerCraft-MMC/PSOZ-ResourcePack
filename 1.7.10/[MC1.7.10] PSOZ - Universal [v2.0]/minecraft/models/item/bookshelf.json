@@ -1,0 +1,8 @@
+{
+    "parent": "item/inv_cube_topped",
+    "textures": {
+        "all": "blocks/bookshelf",
+        "top": "blocks/planks_oak",
+        "glow": "outlines/outline_standard"
+    } 
+}

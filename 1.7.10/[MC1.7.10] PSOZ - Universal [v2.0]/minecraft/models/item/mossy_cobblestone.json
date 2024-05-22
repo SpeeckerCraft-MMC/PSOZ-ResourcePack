@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_cube",
+    "textures": {
+        "all": "blocks/cobblestone_mossy",
+        "glow": "outlines/outline_standard"
+    } 
+}

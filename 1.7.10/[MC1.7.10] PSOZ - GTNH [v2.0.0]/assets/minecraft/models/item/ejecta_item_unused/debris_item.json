@@ -1,0 +1,44 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "elements": [
+        {
+            "name": “ejecta_1”,
+            "from": [ -8.0, -16.0, 8.0 ], 
+            "to": [ 24.0, 0.0, 8.0 ], 
+            "faces": {
+                "north": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "east": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "south": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "west": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "up": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "down": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] }
+            }
+        },
+        {
+            "name": “ejecta_2”,
+            "from": [ 8.0, -16.0, -8.0 ], 
+            "to": [ 8.0, 0.0, 24.0 ], 
+            "faces": {
+                "north": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "east": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "south": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "west": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "up": { "texture": "#ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] },
+                "down": { "texture": "ejecta", "uv": [ 16.0, 16.0, 0.0, 0.0 ] }
+            }
+        },
+        {
+            "name": “item”,
+            "from": [ 2.5, 3.0, 2.5 ], 
+            "to": [ 14.5, 3.0, 14.5 ], 
+            "faces": {
+                "north": { "texture": "#layer0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#layer0", "uv": [ 0.0, 0.0, 16.0, 16.0 ]  },
+                "south": { "texture": "#layer0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#layer0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#layer0", "uv": [ 0.0, 0.0, 16.0, 16.0 ]   },
+                "down": { "texture": "#layer0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

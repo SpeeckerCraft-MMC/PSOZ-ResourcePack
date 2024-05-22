@@ -1,0 +1,236 @@
+{
+	"credit": "Made by Blockstate",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "blocks/iron_block",
+		"particle": "blocks/iron_block",
+		"metal": "blocks/cauldron_inner"
+	},
+	"elements": [
+		{
+			"name": "Hinge",
+			"from": [-0.25, 4, -0.0625],
+			"to": [3.25, 6, 0.9375],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 2], "texture": "#metal"},
+				"east": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"south": {"uv": [0, 0, 3, 2], "texture": "#metal"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"up": {"uv": [0, 0, 3, 1], "texture": "#metal"},
+				"down": {"uv": [3, 1, 0, 0], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Bot",
+			"from": [0, 0, 0],
+			"to": [3, 2, 16],
+			"faces": {
+				"north": {"uv": [6.5, 14, 9.5, 16], "texture": "#texture"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#texture"},
+				"south": {"uv": [6.5, 14, 9.5, 16], "texture": "#texture"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#texture"},
+				"up": {"uv": [6.5, 0, 9.5, 16], "texture": "#texture"},
+				"down": {"uv": [9.5, 16, 6.5, 0], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot",
+			"from": [0, 2, 0],
+			"to": [3, 16, 2],
+			"faces": {
+				"north": {"uv": [6.5, 0, 9.5, 14], "texture": "#texture"},
+				"east": {"uv": [14, 0, 16, 14], "texture": "#texture"},
+				"south": {"uv": [6.5, 0, 9.5, 14], "texture": "#texture"},
+				"west": {"uv": [0, 0, 2, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot",
+			"from": [0, 2, 14],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [6.5, 0, 9.5, 14], "texture": "#texture"},
+				"east": {"uv": [0, 0, 2, 14], "texture": "#texture"},
+				"south": {"uv": [6.5, 0, 9.5, 14], "texture": "#texture"},
+				"west": {"uv": [14, 0, 16, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot",
+			"from": [0, 7, 2],
+			"to": [3, 8, 14],
+			"faces": {
+				"east": {"uv": [2, 8, 14, 9], "texture": "#texture"},
+				"west": {"uv": [2, 8, 14, 9], "texture": "#texture"},
+				"up": {"uv": [6.5, 2, 9.5, 14], "texture": "#texture"},
+				"down": {"uv": [9.5, 14, 6.5, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot",
+			"from": [0, 13, 2],
+			"to": [3, 14, 14],
+			"faces": {
+				"east": {"uv": [2, 2, 14, 3], "texture": "#texture"},
+				"west": {"uv": [2, 2, 14, 3], "texture": "#texture"},
+				"up": {"uv": [6.5, 2, 9.5, 14], "texture": "#texture"},
+				"down": {"uv": [9.5, 14, 6.5, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0, 2, 8],
+			"to": [1.5, 16, 9.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 2, 8]},
+			"faces": {
+				"north": {"uv": [7, 0, 8, 14], "texture": "#texture"},
+				"west": {"uv": [8, 0, 9, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.875, 2, 8],
+			"to": [2.375, 16, 9.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.875, 2, 8]},
+			"faces": {
+				"east": {"uv": [8, 0, 9, 14], "texture": "#texture"},
+				"south": {"uv": [7, 0, 8, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot",
+			"from": [1, 2, 2],
+			"to": [2, 16, 14],
+			"faces": {
+				"east": {"uv": [2, 0, 14, 14], "texture": "#texture"},
+				"west": {"uv": [2, 0, 14, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Vert",
+			"from": [0, 2, 14],
+			"to": [1.5, 16, 15.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 2, 14]},
+			"faces": {
+				"north": {"uv": [13, 0, 14, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Vert",
+			"from": [0.875, 2, 14],
+			"to": [2.375, 16, 15.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.875, 2, 14]},
+			"faces": {
+				"east": {"uv": [2, 0, 3, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Vert",
+			"from": [0, 2, 2],
+			"to": [1.5, 16, 3.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0, 2, 2]},
+			"faces": {
+				"west": {"uv": [2, 0, 3, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Bot Diag Vert",
+			"from": [0.875, 2, 2],
+			"to": [2.375, 16, 3.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.875, 2, 2]},
+			"faces": {
+				"south": {"uv": [13, 0, 14, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0, 0.5, 2],
+			"to": [1.5, 2, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 2, 2]},
+			"faces": {
+				"up": {"uv": [2, 13, 14, 14], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0.875, 0.5, 2],
+			"to": [2.375, 2, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.875, 2, 2]},
+			"faces": {
+				"east": {"uv": [2, 13, 14, 14], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0, 6.5, 2],
+			"to": [1.5, 8, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 8, 2]},
+			"faces": {
+				"up": {"uv": [2, 7, 14, 8], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0.875, 6.5, 2],
+			"to": [2.375, 8, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.875, 8, 2]},
+			"faces": {
+				"east": {"uv": [2, 7, 14, 8], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0, 12.5, 2],
+			"to": [1.5, 14, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 14, 2]},
+			"faces": {
+				"up": {"uv": [2, 1, 14, 2], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0.875, 12.5, 2],
+			"to": [2.375, 14, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.875, 14, 2]},
+			"faces": {
+				"east": {"uv": [2, 1, 14, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0, 5.5, 2],
+			"to": [1.5, 7, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 7, 2]},
+			"faces": {
+				"west": {"uv": [2, 9, 14, 10], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0.875, 5.5, 2],
+			"to": [2.375, 7, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.875, 7, 2]},
+			"faces": {
+				"down": {"uv": [2, 9, 14, 10], "rotation": 90, "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0, 11.5, 2],
+			"to": [1.5, 13, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0, 13, 2]},
+			"faces": {
+				"west": {"uv": [2, 3, 14, 4], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Top Diag Horiz",
+			"from": [0.875, 11.5, 2],
+			"to": [2.375, 13, 14],
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.875, 13, 2]},
+			"faces": {
+				"down": {"uv": [2, 3, 14, 4], "rotation": 90, "texture": "#texture"}
+			}
+		}
+	]
+}

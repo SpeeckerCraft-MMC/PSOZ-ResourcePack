@@ -1,0 +1,8 @@
+{
+    "parent": "item/door_inv",
+    "textures": {
+        "layer0": "items/door_acacia",
+		"top": "blocks/door_acacia_upper",
+		"bottom": "blocks/door_acacia_lower"
+    }
+}

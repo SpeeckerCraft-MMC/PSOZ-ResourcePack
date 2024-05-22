@@ -1,0 +1,8 @@
+{
+    "parent": "item/inv_cube_topped",
+    "textures": {
+        "all": "blocks/quartz_block_side",
+        "top": "blocks/quartz_block_top",
+        "glow": "outlines/outline_standard"
+    } 
+}

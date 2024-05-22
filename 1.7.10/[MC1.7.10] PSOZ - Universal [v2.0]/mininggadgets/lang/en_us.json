@@ -1,0 +1,7 @@
+{
+  "block.mininggadgets.modificationtable": "\u00A7fModification Table",
+  "item.mininggadgets.mininggadget": "\u00A7fMining Gadget",
+  "itemGroup.mininggadgets": "\u00A7fMining Gadgets",
+  "mininggadgets.gadget.energy": "\u00A7fEnergy: %d/%d",
+  "mininggadgets.upgrade.replacement": "\u00A7fUpgrade: "
+}

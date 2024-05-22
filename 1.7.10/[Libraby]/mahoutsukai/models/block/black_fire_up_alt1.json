@@ -1,7 +1,0 @@
-{
-    "parent": "mahoutsukai:block/black_fire_up_alt",
-    "textures": {
-        "particle": "mahoutsukai:block/black_fire_layer_1",
-        "fire": "mahoutsukai:block/black_fire_layer_1"
-    }
-}

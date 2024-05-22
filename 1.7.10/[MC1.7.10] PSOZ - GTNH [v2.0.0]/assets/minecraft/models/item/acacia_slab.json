@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_slab",
+    "textures": {
+        "all": "blocks/planks_acacia",
+        "glow": "outlines/outline_standard"
+    } 
+}

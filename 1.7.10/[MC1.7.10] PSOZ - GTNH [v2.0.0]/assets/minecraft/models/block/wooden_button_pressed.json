@@ -1,0 +1,47 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+		"texture": "tritonmodel/utils_atlas_1",
+        "particle": "blocks/planks_oak"
+    },
+    "elements": [
+        {
+            "from": [4.25,-2,5.25],
+            "to": [11.75,1,10.75],
+			"shade": false,
+            "faces": {
+                "up": {
+					"rotation": 90,
+					"uv": [9,13,11,16],
+                    "texture": "#texture"
+                },
+                "down": {
+					"rotation": 90,
+					"uv": [9,13,11,16],
+                    "texture": "#texture"
+                },
+                "west": {
+					"rotation": 90,
+					"uv": [14,7,15,10],
+                    "texture": "#texture"
+                },
+                "east": {
+					"rotation": 90,
+					"uv": [14,7,15,10],
+                    "texture": "#texture"
+                },
+                "north": {
+					"rotation": 90,
+					"uv": [14,7,15,10],
+                    "texture": "#texture"
+                },
+                "south": {
+					"rotation": 90,
+					"uv": [14,7,15,10],
+                    "texture": "#texture"
+                }
+            }
+        }
+    ]
+}

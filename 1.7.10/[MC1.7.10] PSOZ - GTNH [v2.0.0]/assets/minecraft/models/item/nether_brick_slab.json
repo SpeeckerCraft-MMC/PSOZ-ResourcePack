@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_slab",
+    "textures": {
+        "all": "blocks/nether_brick",
+        "glow": "outlines/outline_standard"
+    } 
+}

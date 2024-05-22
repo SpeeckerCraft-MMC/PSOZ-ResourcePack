@@ -1,0 +1,28 @@
+{
+    "_comment": "# CREATIVE TAB",
+    "itemGroup.mmorpg_main": "\u00A7fMine and Slash",
+    "itemGroup.mmorpg_uniques": "\u00A7fUnique Gear",
+    "itemGroup.mmorpg_currency": "\u00A7fCrafting Items",
+    "itemGroup.mmorpg_lootboxes": "\u00A7fLootBoxes",
+	"itemGroup.mmorpg_alchemy": "\u00A7fAlchemy",
+
+    "_comment": "STATIONS",
+    "block.mmorpg.modify_station": "\u00A7fGear Modify Station",
+    "block.mmorpg.repair_station": "\u00A7fGear Repair Station",
+    "block.mmorpg.gear_factory_station": "\u00A7fGear Craft Station",
+    "block.mmorpg.salvage_station": "\u00A7fGear Salvage Station",
+    "block.mmorpg.map_device": "\u00A7fMap Device",
+	"block.mmorpg.alchemy_station": "\u00A7fAlchemy Station",
+	"block.mmorpg.tinkering_station": "\u00A7fTinkering Station",
+	
+    "_comment": "MISC ITEMS",
+    "item.mmorpg.loot_bag": "\u00A7fGear Loot Bag",
+    "item.mmorpg.map_bag": "\u00A7fMap Bag",
+    "item.mmorpg.currency_bag": "\u00A7fCurrency Bag",
+
+	"_comment": " [CATEGORY]: ADVANCEMENT TITLES - NAMES",
+    "mmorpg.advancement.title.currencybag": "\u00A7fCurrency Bag",
+	"mmorpg.advancement.title.lootbag": "\u00A7fLoot Bag",
+	"mmorpg.advancement.title.mapbag": "\u00A7fMap Bag",
+	"mmorpg.advancement.title.masterbag": "\u00A7fMaster Bag"
+}

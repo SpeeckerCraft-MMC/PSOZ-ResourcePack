@@ -1,0 +1,358 @@
+{
+    "__createdwith": "opl's Model Creator",
+    "ambientocclusion": false,
+    "textures": {
+        "redstone_block": "blocks/redstone_block_3d",
+        "particle": "blocks/redstone_block_3d"
+    },
+    "elements": [
+        {
+            "from": [0.5,0.5,0.5],
+            "to": [15.5,15.5,15.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0,0,0],
+            "to": [0.5,16,0.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0,0.5,0.5,0],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [0.5,0,0,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [0.5,0,0,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [15.5,0,0],
+            "to": [16,16,0.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [15.5,0.5,16,0],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [0.5,0,0,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [16,0,15.5,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0,0,15.5],
+            "to": [0.5,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0,16,0.5,15.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [16,0,15.5,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [0.5,0,0,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [15.5,0,15.5],
+            "to": [16,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [15.5,16,16,15.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [16,0,15.5,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [16,0,15.5,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [15.5,0,0.5],
+            "to": [16,0.5,15.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [15.5,15.5,16,0.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [15.5,15.5,0.5,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [16,15.5,15.5,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [15.5,15.5,0.5],
+            "to": [16,16,15.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [15.5,15.5,16,0.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [15.5,0,0.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [16,0,15.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0,0,0.5],
+            "to": [0.5,0.5,15.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0,15.5,0.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [15.5,15.5,0.5,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [0.5,15.5,0,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0,15.5,0.5],
+            "to": [0.5,16,15.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0,15.5,0.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [15.5,0,0.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [0.5,0,0,0.5],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0.5,0,15.5],
+            "to": [15.5,0.5,16],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0.5,16,15.5,15.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [16,15.5,15.5,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [15.5,15.5,0.5,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0.5,15.5,15.5],
+            "to": [15.5,16,16],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0.5,16,15.5,15.5],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [16,0,15.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [15.5,0,0.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0.5,15.5,0],
+            "to": [15.5,16,0.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0.5,0.5,15.5,0],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [0.5,0,0,0.5],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [15.5,0,0.5,0.5],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        },
+        {
+            "from": [0.5,0,0],
+            "to": [15.5,0.5,0.5],
+            "faces": {
+                "up": {
+                    "texture": "#redstone_block"
+                },
+                "down": {
+                    "uv": [0.5,0.5,15.5,0],
+                    "texture": "#redstone_block"
+                },
+                "west": {
+                    "texture": "#redstone_block"
+                },
+                "east": {
+                    "uv": [0.5,15.5,0,16],
+                    "texture": "#redstone_block"
+                },
+                "north": {
+                    "uv": [15.5,15.5,0.5,16],
+                    "texture": "#redstone_block"
+                },
+                "south": {
+                    "texture": "#redstone_block"
+                }
+            }
+        }
+    ]
+}

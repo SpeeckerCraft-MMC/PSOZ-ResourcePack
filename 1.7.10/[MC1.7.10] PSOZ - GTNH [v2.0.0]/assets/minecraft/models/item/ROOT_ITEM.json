@@ -1,0 +1,17 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+    "particle": "#layer0"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ -16.0, -16.0, 0.0 ], 
+            "to": [ 32.0, 32.0, 0.0 ], 
+            "faces": {
+                "north": { "texture": "#layer0", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#layer0", "uv": [ 0, 0, 16, 16 ] }
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "parent": "item/sword",
+    "textures": {
+        "layer0": "items/iron_sword"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ -30, -80, 0 ],
+            "translation": [ 4.5, 1, -6 ],
+            "scale": [ 1.25, 1.25, 0.75 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ -30, 80, 0 ],
+            "translation": [ 4.5, 1, -6 ],
+            "scale": [ 1.25, 1.25, 0.75 ]
+        }
+    }
+}

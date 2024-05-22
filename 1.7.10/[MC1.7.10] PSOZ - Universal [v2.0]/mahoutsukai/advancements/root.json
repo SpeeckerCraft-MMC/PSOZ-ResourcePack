@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "mahoutsukai:dagger"
+    },
+    "title": {
+      "translate": "advancements.mahoutsukai.title"
+    },
+    "description": {
+      "translate": "advancements.mahoutsukai.description"
+    },
+    "background": "mahoutsukai:textures/advancements/background-advancements.png"
+  },
+
+  "criteria": {
+    "mahoutsukai": {
+      "trigger": "mahoutsukai:mahoutsukai"
+    }
+  }
+}

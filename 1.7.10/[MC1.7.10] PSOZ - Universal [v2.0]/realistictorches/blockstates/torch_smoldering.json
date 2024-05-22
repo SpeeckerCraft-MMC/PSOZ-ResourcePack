@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "facing=up": { "model": "smouldering_torch" },
+        "facing=east": { "model": "smouldering_torch_wall" },
+        "facing=south": { "model": "smouldering_torch_wall", "y": 90 },
+        "facing=west": { "model": "smouldering_torch_wall", "y": 180 },
+        "facing=north": { "model": "smouldering_torch_wall", "y": 270 }
+    }
+}

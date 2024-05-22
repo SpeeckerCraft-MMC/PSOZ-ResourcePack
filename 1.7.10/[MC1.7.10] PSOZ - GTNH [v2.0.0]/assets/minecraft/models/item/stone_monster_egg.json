@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_cube",
+    "textures": {
+        "all": "blocks/stone",
+        "glow": "outlines/outline_warning"
+    } 
+}

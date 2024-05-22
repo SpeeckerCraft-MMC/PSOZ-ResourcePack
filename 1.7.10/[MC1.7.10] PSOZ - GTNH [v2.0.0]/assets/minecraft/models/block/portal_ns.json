@@ -1,0 +1,110 @@
+{
+    "textures": {
+        "particle": "blocks/portal",
+        "portal": "blocks/nether_portal",
+        "effect": "blocks/portal_effect"
+    },
+    "elements": [
+         {
+            "from": [0,0,7.5],
+            "to": [16,16,8.5],
+            "shade": false,
+            "faces": {
+                "north": {
+                    "texture": "#portal"
+                },
+                "south": {
+                    "texture": "#portal"
+                }
+            }
+        },
+        {
+            "from": [0,0.01,-10],
+            "to": [16,0.02,8],
+            "shade": false,
+            "faces": {
+                "up": {
+                "uv":[0,0,16,16],"rotation": 180,
+                    "texture": "#effect"
+                }
+            }
+        },
+        {
+            "from": [0,0.01,8],
+            "to": [16,0.02,26],
+            "shade": false,
+            "faces": {
+                "up": {
+                "uv":[0,0,16,16],"rotation": 0,
+                    "texture": "#effect"
+                }
+            }
+        },
+        {
+            "from": [0,15.98,8],
+            "to": [16,15.99,26],
+            "shade": false,
+            "faces": {
+                "down": {
+                    "uv":[0,0,16,16],"rotation": 180,
+                    "texture": "#effect"
+                }
+            }
+        },
+        {
+            "from": [0,15.98,-10],
+            "to": [16,15.99,8],
+            "shade": false,
+            "faces": {
+                "down": {
+                    "uv":[0,0,16,16],"rotation": 0,
+                    "texture": "#effect"
+                }
+            }
+        },
+        {
+            "from": [15.98,0,-10],
+            "to": [15.99,16,8],
+            "shade": false,
+            "faces": {
+                "west": {
+                    "uv":[0,0,16,16],"rotation": 90,
+                    "texture": "#effect"
+                }
+            }
+        },
+        {
+            "from": [15.98,0,7],
+            "to": [15.99,16,25],
+            "shade": false,
+            "faces": {
+                "west": {
+                    "uv":[0,0,16,16],"rotation": 270,
+                    "texture": "#effect"
+                }
+            }
+        },
+        {
+            "from": [0.01,0,-10],
+            "to": [0.02,16,8],
+            "shade": false,
+            "faces": {
+                "east": {
+                    "uv":[0,0,16,16],"rotation": 270,
+                    "texture": "#effect"
+                    }
+            }
+        },
+        {
+            "from": [0.01,0,8],
+            "to": [0.02,16,26],
+            "shade": false,
+            "faces": {
+                "east": {
+                    "uv":[0,0,16,16],"rotation": 90,
+                    "texture": "#effect"
+                }
+            }
+        }
+    ]
+}
