@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-        "bottom": "extraplanets:blocks/pluto_stone_bricks",
-        "top": "extraplanets:blocks/pluto_stone_bricks",
-        "side": "extraplanets:blocks/pluto_stone_bricks"
-    }
-}

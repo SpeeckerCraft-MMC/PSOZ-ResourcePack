@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_cube",
+    "textures": {
+        "all": "blocks/soul_sand",
+        "glow": "outlines/outline_standard"
+    } 
+}

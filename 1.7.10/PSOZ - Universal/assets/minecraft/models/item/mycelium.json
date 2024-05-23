@@ -1,0 +1,12 @@
+{
+    "parent": "item/inv_cube_everything",
+    "textures": {
+        "down": "blocks/dirt",
+        "top": "blocks/mycelium_top",
+        "east": "blocks/mycelium_side",
+        "west": "blocks/mycelium_side",
+        "north": "blocks/mycelium_side",
+        "south": "blocks/mycelium_side",
+        "glow": "outlines/outline_standard"
+    } 
+}

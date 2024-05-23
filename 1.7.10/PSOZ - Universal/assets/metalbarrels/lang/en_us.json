@@ -1,0 +1,27 @@
+{
+  "block.metalbarrels.copper_barrel": "\u00A7fCopper Barrel",
+  "block.metalbarrels.iron_barrel": "\u00A7fIron Barrel",
+  "block.metalbarrels.gold_barrel": "\u00A7fGold Barrel",
+  "block.metalbarrels.diamond_barrel": "\u00A7fDiamond Barrel",
+  "block.metalbarrels.obsidian_barrel": "\u00A7fObsidian Barrel",
+  "block.metalbarrels.silver_barrel": "\u00A7fSilver Barrel",
+  "block.metalbarrels.crystal_barrel": "\u00A7fCrystal Barrel",
+
+  "metalbarrels.copper_barrel": "\u00A7fCopper Barrel",
+  "metalbarrels.iron_barrel": "\u00A7fIron Barrel",
+  "metalbarrels.gold_barrel": "\u00A7fGold Barrel",
+  "metalbarrels.silver_barrel": "\u00A7fSilver Barrel",
+  "metalbarrels.diamond_barrel": "\u00A7fDiamond Barrel",
+  "metalbarrels.obsidian_barrel": "\u00A7fObsidian Barrel",
+  "metalbarrels.crystal_barrel": "\u00A7fCrystal Barrel",
+
+  "itemGroup.metalbarrels": "\u00A7fMetal Barrels",
+
+  "item.metalbarrels.copper_barrel": "\u00A7fCopper Barrel",
+  "item.metalbarrels.iron_barrel": "\u00A7fIron Barrel",
+  "item.metalbarrels.gold_barrel": "\u00A7fGold Barrel",
+  "item.metalbarrels.silver_barrel": "\u00A7fSilver Barrel",
+  "item.metalbarrels.diamond_barrel": "\u00A7fDiamond Barrel",
+  "item.metalbarrels.obsidian_barrel": "\u00A7fObsidian Barrel",
+  "item.metalbarrels.crystal_barrel": "\u00A7fCrystal Barrel"
+}

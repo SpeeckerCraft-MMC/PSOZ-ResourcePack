@@ -1,8 +1,0 @@
-{
-    "parent": "block/outer_stairs_atlased",
-    "textures": {
-        "particle": "blocks/stonebrick",
-        "atlas0": "tritonmodel/stair_atlas_stonebrick_0",
-        "atlas1": "tritonmodel/stair_atlas_stonebrick_1"
-    }
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "block/double_plant_top",
-    "textures": {
-        "cross": "blocks/tallgrass"
-    }
-}

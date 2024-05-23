@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "extraplanets:blocks/ceres_surface",
-        "top": "extraplanets:blocks/ceres_surface",
-        "side": "extraplanets:blocks/ceres_surface"
-    }
-}

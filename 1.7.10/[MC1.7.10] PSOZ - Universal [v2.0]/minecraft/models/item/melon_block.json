@@ -1,8 +1,0 @@
-{
-    "parent": "item/inv_cube_topped",
-    "textures": {
-        "all": "blocks/melon_side",
-        "top": "blocks/melon_top",
-        "glow": "outlines/outline_standard"
-    } 
-}

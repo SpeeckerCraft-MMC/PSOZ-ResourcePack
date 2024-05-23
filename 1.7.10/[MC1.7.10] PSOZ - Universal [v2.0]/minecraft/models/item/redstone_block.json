@@ -1,7 +1,0 @@
-{
-    "parent": "item/inv_cube",
-    "textures": {
-        "all": "blocks/redstone_block",
-        "glow": "outlines/outline_standard"
-    } 
-}

@@ -1,0 +1,40 @@
+{
+    "itemGroup.storagenetwork": "\u00A7fSimple Storage Network",
+    
+    "gui.storagenetwork.operate.tooltip": "\u00A7fActive if %s than %d %s in network",
+    "gui.storagenetwork.operate.tooltip.more": "\u00A7fmore",
+    "gui.storagenetwork.operate.tooltip.less": "\u00A7fless",
+
+    "gui.storagenetwork.refresh": "\u00A7fRefresh processing transactions, so if it is stuck waiting for a result, this will swap it back to recipe mode to gather ingredients.",
+
+    "gui.storagenetwork.checkbox.meta": "\u00A7fMeta",
+    "gui.storagenetwork.checkbox.ore": "\u00A7fOreDict",
+    "gui.storagenetwork.checkbox.nbt": "\u00A7fNBT",
+
+    "gui.storagenetwork.import": "\u00A7fImport contents as Filter",
+    "gui.storagenetwork.gui.whitelist": "\u00A7fWhitelist",
+    "gui.storagenetwork.gui.blacklist": "\u00A7fBlacklist",
+
+    "gui.storagenetwork.sort": "\u00A7fSort Direction",
+    "gui.storagenetwork.priority.up": "\u00A7fDemote Priority (smaller goes first)",
+    "gui.storagenetwork.priority.down": "\u00A7fPromote Priority (smaller goes first)",
+
+    "gui.storagenetwork.fil.tooltip_IN": "\u00A7fOnly input",
+    "gui.storagenetwork.fil.tooltip_OUT": "\u00A7fOnly output",
+    "gui.storagenetwork.fil.tooltip_BOTH": "\u00A7fInput and output",
+
+    "gui.storagenetwork.shift": "\u00A7fHold shift for more information.",
+
+    "gui.storagenetwork.fil.tooltip_0": "\u00A7fPrefix @: Search for mod.",
+    "gui.storagenetwork.fil.tooltip_1": "\u00A7fPrefix #: Search for tooltip.",
+    "gui.storagenetwork.fil.tooltip_2": "\u00A7fPrefix $: Search for OreDict.",
+    "gui.storagenetwork.fil.tooltip_3": "\u00A7fClear text with right-click or X button",
+
+    "gui.storagenetwork.tooltip_clear": "\u00A7fClear Search",
+    "gui.storagenetwork.fil.tooltip_jei_on": "\u00A7fJEI search enabled",
+    "gui.storagenetwork.fil.tooltip_jei_off": "\u00A7fJEI search disabled",
+
+    "gui.storagenetwork.processing.recipe": "\u00A7fIngredients for each cycle will be sent as if coming from this block-side",
+    "gui.storagenetwork.processing.extract": "\u00A7fWhen pulling processing results it will be taken as if from this block-side",
+    "gui.storagenetwork.": "\u00A7fTooltip new thing goes here"
+}

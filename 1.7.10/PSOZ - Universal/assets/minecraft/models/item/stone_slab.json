@@ -1,0 +1,8 @@
+{
+    "parent": "item/inv_slab_topped",
+    "textures": {
+        "all": "blocks/stone_slab_side",
+        "top": "blocks/stone_slab_top",
+        "glow": "outlines/outline_standard"
+    } 
+}

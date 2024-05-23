@@ -1,0 +1,10 @@
+{
+    "parent": "item/inv_cube_all",
+    "textures": {
+        "ns": "blocks/crafting_table_front",
+        "ew": "blocks/crafting_table_side",
+        "top": "blocks/crafting_table_top",
+        "down": "blocks/planks_oak",
+        "glow": "outlines/outline_standard"
+    } 
+}

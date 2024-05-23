@@ -1,0 +1,122 @@
+{
+  "ui.button.click": {
+    "category": "master",
+    "replace": "true",
+    "sounds": [
+      "random/button"
+    ]
+  },
+  "entity.player.hurt": {
+    "category": "player",
+    "replace": "true",
+    "sounds": [
+      "player/hit_1",
+      "player/hit_2",
+      "player/hit_3",
+      "player/hit_4"
+    ]
+  },
+  "entity.endereye.launch": {
+    "category": "neutral",
+    "replace": "true",
+    "sounds": [
+      "random/eye_of_ender"
+    ]
+  },
+  "block.stone_button.click_on": {
+    "category": "block",
+    "replace": "true",
+    "sounds": [
+      "mechanical/button_press_stone"
+    ]
+  },
+"block.stone_button.click_off": {
+    "category": "block",
+    "replace": "true",
+    "sounds": [
+      "mechanical/button_reset_stone"
+    ]
+  },
+  "block.wood_button.click_on": {
+    "category": "block",
+    "replace": "true",
+    "sounds": [
+      "mechanical/button_press_wood"
+    ]
+  },
+"block.wood_button.click_off": {
+    "category": "block",
+    "replace": "true",
+    "sounds": [
+      "mechanical/button_reset_wood"
+    ]
+  },
+  "step.anvil": {
+    "category": "neutral",
+    "replace": "false",
+    "sounds": [
+      "step/anvil1",
+	  "step/anvil2",
+	  "step/anvil3",
+	  "step/anvil4"
+    ]
+  },
+  "random.orb": {
+    "category": "player",
+    "replace": "true",
+    "sounds": [
+      {"name":"random/orb","volume": 0.7},
+	  {"name":"random/orb1", "volume": 0.7}
+    ]
+  },
+  "entity.item.pickup": {
+    "category": "neutral",
+    "replace": "true",
+    "sounds": [
+      "random/pop1",
+      "random/pop2",
+      "random/pop3",
+      "random/pop4",
+      "random/pop5",
+      "random/pop6",
+      "random/pop7",
+      "random/pop8"
+    ]
+  },
+  "block.grass.step": {
+    "category": "neutral",
+    "replace": "true",
+    "sounds": [
+      "step/step_grass_1",
+      "step/step_grass_2",
+      "step/step_grass_3",
+      "step/step_grass_4",
+      "step/step_grass_5",
+      "step/step_grass_6"
+    ]
+  },
+  "game.player.die": {
+    "category": "player",
+    "replace": "true",
+    "sounds": [
+      "random/dead_1"
+    ]
+  },
+  "entity.splash_potion.break": {
+    "category": "neutral",
+    "replace": "true",
+    "sounds": [
+      "random/potion1",
+	  "random/potion2",
+	  "random/potion3",
+	  "random/potion4"
+    ]
+  },
+  "random.click": {
+    "category": "block",
+    "replace": "false",
+    "sounds": [
+      "random/click"
+    ]
+   }
+}

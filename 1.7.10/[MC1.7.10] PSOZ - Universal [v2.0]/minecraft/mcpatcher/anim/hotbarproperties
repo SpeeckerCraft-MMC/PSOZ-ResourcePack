@@ -1,8 +1,0 @@
-#Hotbar
-duration=1
-h=22
-w=180
-x=0
-y=0
-from=./hotbar.png
-to=textures/gui/widgets.png

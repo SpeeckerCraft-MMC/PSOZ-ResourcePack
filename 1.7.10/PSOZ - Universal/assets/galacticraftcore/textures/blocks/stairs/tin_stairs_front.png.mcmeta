@@ -1,0 +1,33 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "textures": [
+            "galacticraftcore:blocks/stairs/tin_stairs_front_ctm"
+        ],
+        "extra": {
+            "ignore_states": true,
+            "connect_inside": true,
+            "connect_to": [
+                {"block": "galacticraftcore:basic_block_core",
+                 "predicate": [{"basictype": "deco_block_0"}]},
+                {"block": "galacticraftcore:basic_block_core",
+                 "predicate": [{"basictype": "deco_block_1"}]},
+                {"block": "galacticraftcore:concealed_redstone"},
+                {"block": "galacticraftcore:concealed_repeater"},
+                {"block": "galacticraftcore:concealed_detector"},
+                {"block": "galacticraftcore:enclosed"},
+                {"block": "galacticraftcore:tin_stairs_1"},
+                {"block": "galacticraftcore:tin_stairs_2"},
+                {"block": "galacticraftcore:slab_gc_half",
+                 "predicate": [{"variant": "tin_slab_1"}]},
+                {"block": "galacticraftcore:slab_gc_half",
+                 "predicate": [{"variant": "tin_slab_2"}]},
+                {"block": "galacticraftcore:slab_gc_double",
+                 "predicate": [{"variant": "tin_slab_1"}]},
+                {"block": "galacticraftcore:slab_gc_double",
+                 "predicate": [{"variant": "tin_slab_2"}]}
+            ]
+        }
+    }
+}

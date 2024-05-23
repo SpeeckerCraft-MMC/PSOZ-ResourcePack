@@ -1,0 +1,144 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "blocks/planks_spruce_base",
+		"particle": "blocks/planks_spruce_base",
+		"metal": "blocks/cauldron_inner"
+	},
+	"elements": [
+		{
+			"name": "Hinge",
+			"from": [-0.25, 4, -0.0625],
+			"to": [3.25, 6, 0.9375],
+			"faces": {
+				"north": {"uv": [0, 0, 3.5, 2], "texture": "#metal"},
+				"east": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"south": {"uv": [0, 0, 3.5, 2], "texture": "#metal"},
+				"west": {"uv": [0, 0, 1, 2], "texture": "#metal"},
+				"up": {"uv": [0, 0, 3.5, 1], "texture": "#metal"},
+				"down": {"uv": [0, 0, 3.5, 1], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Hinge extra",
+			"from": [0.25, 4, 2],
+			"to": [2.75, 5.5, 14],
+			"rotation": {"angle": 0, "axis": "z", "origin": [0.25, 5.5, 2]},
+			"faces": {
+				"east": {"uv": [0, 0, 12, 1.5], "texture": "#metal"},
+				"west": {"uv": [0, 0, 12, 1.5], "texture": "#metal"},
+				"up": {"uv": [0, 0, 2.5, 12], "texture": "#metal"},
+				"down": {"uv": [0, 0, 2.5, 12], "texture": "#metal"}
+			}
+		},
+		{
+			"name": "Door Bot",
+			"from": [0, 0, 14],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 5, 16, 8], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 3, 16, 5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 8, 16, 10], "texture": "#texture", "rotation": 90},
+				"down": {"uv": [0, 0, 3, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Door Bot",
+			"from": [0, 0, 0],
+			"to": [3, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 8, 16, 10], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 5, 16, 8], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 3, 16, 5], "texture": "#texture", "rotation": 90},
+				"down": {"uv": [0, 0, 3, 2], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "Door Bot",
+			"from": [0, 0, 2],
+			"to": [3, 2, 14],
+			"faces": {
+				"north": {"uv": [13, 14, 16, 16], "texture": "#texture"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#texture"},
+				"south": {"uv": [0, 14, 3, 16], "texture": "#texture"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#texture"},
+				"up": {"uv": [0, 4, 16, 7], "texture": "#texture", "rotation": 90},
+				"down": {"uv": [16, 15, 0, 12], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.5, 2, 3],
+			"to": [2, 16, 4.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 2, 3]},
+			"faces": {
+				"north": {"uv": [0, 12, 14, 13.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 10, 14, 11.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 8, 14, 9.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 14, 14, 15.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.5, 2, 5],
+			"to": [2, 16, 6.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 2, 5]},
+			"faces": {
+				"north": {"uv": [0, 4, 14, 5.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 2, 14, 3.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 0, 14, 1.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 6, 14, 7.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.5, 2, 7],
+			"to": [2, 16, 8.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 2, 7]},
+			"faces": {
+				"north": {"uv": [0, 12, 14, 13.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 10, 14, 11.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 8, 14, 9.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 14, 14, 15.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.5, 2, 9],
+			"to": [2, 16, 10.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 2, 9]},
+			"faces": {
+				"north": {"uv": [0, 4, 14, 5.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 2, 14, 3.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 0, 14, 1.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 6, 14, 7.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.5, 2, 11],
+			"to": [2, 16, 12.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 2, 11]},
+			"faces": {
+				"north": {"uv": [0, 12, 14, 13.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 10, 14, 11.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 8, 14, 9.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 14, 14, 15.5], "texture": "#texture", "rotation": 90}
+			}
+		},
+		{
+			"name": "Bot Diag Mid",
+			"from": [0.5, 2, 13],
+			"to": [2, 16, 14.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [0.5, 2, 13]},
+			"faces": {
+				"north": {"uv": [0, 4, 14, 5.5], "texture": "#texture", "rotation": 90},
+				"east": {"uv": [0, 2, 14, 3.5], "texture": "#texture", "rotation": 90},
+				"south": {"uv": [0, 0, 14, 1.5], "texture": "#texture", "rotation": 90},
+				"west": {"uv": [0, 6, 14, 7.5], "texture": "#texture", "rotation": 90}
+			}
+		}
+	]
+}

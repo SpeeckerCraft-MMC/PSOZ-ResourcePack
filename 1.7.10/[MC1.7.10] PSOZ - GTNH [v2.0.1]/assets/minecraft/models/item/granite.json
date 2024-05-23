@@ -1,7 +1,0 @@
-{
-    "parent": "item/inv_cube",
-    "textures": {
-        "all": "blocks/stone_granite",
-        "glow": "outlines/outline_standard"
-    } 
-}

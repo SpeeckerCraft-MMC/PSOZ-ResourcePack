@@ -1,0 +1,21 @@
+{
+    "textures": {
+        "all": "entity/banner_base",
+        "particle": "blocks/lapis_block"
+        },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+			"shade": false,
+            "faces": {
+                "down":  { "uv": [16, 0, 0, 16], "texture": "#all", "cullface": "down" },
+                "up":    { "uv": [12, 12, 16, 16], "texture": "#all", "cullface": "up" },
+                "north": { "uv": [16, 0, 0, 16], "texture": "#all", "cullface": "north" },
+                "south": { "uv": [16, 0, 0, 16], "texture": "#all", "cullface": "south" },
+                "west":  { "uv": [16, 0, 0, 16], "texture": "#all", "cullface": "west" },
+                "east":  { "uv": [16, 0, 0, 16], "texture": "#all", "cullface": "east" }
+            }
+        }
+    ]
+}
+

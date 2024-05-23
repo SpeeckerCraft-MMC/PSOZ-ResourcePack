@@ -1,0 +1,7 @@
+{
+    "parent": "item/inv_cube",
+    "textures": {
+        "all": "blocks/netherrack",
+        "glow": "outlines/outline_standard"
+    } 
+}

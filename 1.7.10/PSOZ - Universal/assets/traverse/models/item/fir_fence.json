@@ -1,0 +1,72 @@
+{
+	"__comment": "Designed by HanFox with Cubik",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"texture": "traverse:block/fir_fence"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Left post",
+			"from": [ 6, -0.5, 0 ],
+			"to": [ 10, 16, 4 ],
+			"faces": {
+				"down": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Right post",
+			"from": [ 6, 0, 12 ],
+			"to": [ 10, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Top bar",
+			"from": [ 7, 13, -2 ],
+			"to": [ 9, 15, 18 ],
+			"faces": {
+				"down": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture" },
+				"up": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture", "rotation": 90 },
+				"east": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Lower bar",
+			"from": [ 7, 5, -2 ],
+			"to": [ 9, 7, 18 ],
+			"faces": {
+				"down": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture" },
+				"up": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture", "rotation": 90 },
+				"east": { "uv": [ 7, 0, 9, 1 ], "texture": "#texture", "rotation": 90 }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 30, 135, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 90, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

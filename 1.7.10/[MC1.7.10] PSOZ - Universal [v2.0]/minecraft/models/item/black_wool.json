@@ -1,7 +1,0 @@
-{
-    "parent": "item/inv_cube",
-    "textures": {
-        "all": "blocks/wool_colored_black",
-        "glow": "outlines/outline_standard"
-    } 
-}

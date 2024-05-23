@@ -1,0 +1,9 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "textures": [
+            "galacticraftcore:blocks/block_copper_ctm"
+        ]
+    }
+}

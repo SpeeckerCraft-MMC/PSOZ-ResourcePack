@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "normal": [
-            { "model": "enchanting_table_base", "weight": 50 },
-            { "model": "enchanting_table_base_1", "weight": 40 },
-			{ "model": "enchanting_table_base_2", "weight": 30 }
-        ]
-    }
-}

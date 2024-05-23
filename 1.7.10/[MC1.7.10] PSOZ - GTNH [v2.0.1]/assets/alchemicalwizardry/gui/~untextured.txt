@@ -1,2 +1,0 @@
-bookleft.png
-container.png

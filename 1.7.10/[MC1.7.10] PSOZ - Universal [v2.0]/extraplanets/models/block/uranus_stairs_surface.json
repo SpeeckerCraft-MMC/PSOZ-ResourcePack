@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "extraplanets:blocks/uranus_surface",
-        "top": "extraplanets:blocks/uranus_surface",
-        "side": "extraplanets:blocks/uranus_surface"
-    }
-}

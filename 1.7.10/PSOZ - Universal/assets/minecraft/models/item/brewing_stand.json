@@ -1,0 +1,6 @@
+{
+    "parent": "block/brewing_stand_empty",
+    "textures": {
+        "layer0": "items/brewing_stand"
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "textures": {
+    "openside": "mahoutsukai:block/circuit1",
+    "plain": "mahoutsukai:block/circuit2",
+    "topper": "mahoutsukai:block/circuit3",
+    "particle": "mahoutsukai:block/circuit1"
+  },
+  "elements": [
+    {
+      "from": [0,0,0],
+      "to": [16,16,16],
+      "faces": {
+        "up": {
+          "texture": "#topper"
+        },
+        "down": {
+          "texture": "#plain"
+
+        },
+        "north": {
+          "texture": "#openside"
+
+        },
+        "south": {
+          "texture": "#openside"
+
+        }, "east": {
+          "texture": "#plain"
+
+        }, "west": {
+          "texture": "#plain"
+
+        }
+      }
+    }
+  ]
+}

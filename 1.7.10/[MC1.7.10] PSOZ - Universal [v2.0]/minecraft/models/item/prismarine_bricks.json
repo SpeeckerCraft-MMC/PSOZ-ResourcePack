@@ -1,7 +1,0 @@
-{
-    "parent": "item/inv_cube",
-    "textures": {
-        "all": "blocks/prismarine_bricks",
-        "glow": "outlines/outline_standard"
-    } 
-}

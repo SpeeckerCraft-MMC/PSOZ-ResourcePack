@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "facing=down": { "model": "wopper:wopper_down" },
-        "facing=north": { "model": "wopper:wopper_side_n" },
-        "facing=south": { "model": "wopper:wopper_side_s" },
-        "facing=west": { "model": "wopper:wopper_side_w" },
-        "facing=east": { "model": "wopper:wopper_side_e" }
-    }
-}

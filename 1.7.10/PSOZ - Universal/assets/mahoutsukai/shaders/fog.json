@@ -1,0 +1,12 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "fog",
+      "intarget": "minecraft:main",
+      "outtarget": "swap"
+    }
+  ]
+}

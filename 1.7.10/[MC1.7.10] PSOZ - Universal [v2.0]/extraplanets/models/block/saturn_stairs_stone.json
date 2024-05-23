@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "extraplanets:blocks/saturn_stone",
-        "top": "extraplanets:blocks/saturn_stone",
-        "side": "extraplanets:blocks/saturn_stone"
-    }
-}
