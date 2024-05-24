@@ -68,3 +68,4 @@ MC1.7.10-GTNH v2.0.4
     Fixed:
         - Fixed Crop Managers AGAIN!
         - ReAdded the BQ-Textures
+        - Fixed git-issue #1
