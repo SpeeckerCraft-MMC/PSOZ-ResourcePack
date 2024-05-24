@@ -2,80 +2,299 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>Day {day}, {mctime} (</str>
-            <if>
-                <var>daytime</var>
-                <str>$eDay</str>
-                <str>$8Night</str>
-            </if>
-            <str> time$f)</str>
-        </line>
-        <line>
-            <str>Biome: $e{biome}$f</str>
-            <if>
-                <var>slimes</var>
-                <str> ($aSlime$f)</str>
-                <str> </str>
-            </if>
-        </line>
-        <line>
-            <str>Light: </str>
-            <max>
-                <var>light</var>
-                <num>7.5</num>
-                <str>$e</str>
-                <str>$c</str>
-            </max>
-            <var>light</var>
-            <str>$r (feet: </str>
-            <max>
-                <var>lightfeet</var>
-                <num>7.5</num>
-                <str>$e</str>
-                <str>$c</str>
-            </max>
-            <var>lightfeet</var>
-            <str>$r)</str>
-        </line>
-        <line>
-            <str>$fEXP: $e{xpthislevel}$f / $e{xpcap}$f ($e</str>
-            <round>
-                <pct>
-                    <var>xpthislevel</var>
-                    <var>xpcap</var>
-                </pct>
-                <num>0</num>
-            </round>
-            <str>%$f)</str>
-        </line>
-        <line>
-            <str>FPS: </str>
-            <operation>
-                <str>ge</str>
+            <str>{pingicon}{gold}{username} {white}FPS: </str>
+            <op>
+                <str>gt</str>
                 <var>fps</var>
                 <num>60</num>
                 <num>45</num>
                 <num>30</num>
                 <num>15</num>
                 <num>0</num>
-                <str>$a</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
                 <str/>
-            </operation>
+            </op>
             <var>fps</var>
         </line>
         <line>
-            <str>Entities: $e{entitiesrendered}$f / $e{entitiestotal}$f</str>
+            <icon>
+                <str>minecraft:redstone</str>
+            </icon>
+            <str>{white} RAM: $a{memused}$f/$4{memtotal}$f</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str>{white} System Time: {purple}{rltime24} </str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> Minecraft Year {darkaqua}</str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>
+            <str> {white}Day {darkaqua}</str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str>{white} Time: {gold}{mctime12} </str>
+            <if>
+                <var>daytime</var>
+                <str>{yellow}(day)</str>
+                <str>{gray}(night)</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>HardcoreEnderExpansion:temple_end_portal</str>
+            </icon>
+            <str> Dimension: {gold}{dimension} ({dimensionid}) {white}Chunks Loaded: {gold}{loadedchunks}</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:sapling</str>
+                <num>4</num>
+            </icon>
+            <str> Biome: {darkaqua}{biome} {gold}{localtemperature}{white}°F {gold}</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>localtemperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>{white}°C {gold}</str>
+            <round>
+                <add>
+                    <div>
+                        <sub>
+                            <var>localtemperature</var>
+                            <num>32</num>
+                        </sub>
+                        <num>1.8</num>
+                    </div>
+                    <num>273.15</num>
+                </add>
+                <num>0</num>
+            </round>
+            <str>{white}K</str>
+            <str> {gold}{humidity}{white}% Humidity</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:skull</str>
+                <num>4</num>
+            </icon>
+            <str> Entities: {gold}{entitiesrendered} {white}Rendered / {gold}{entitiestotal} {white}Loaded  </str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:compass</str>
+                <num>0</num>
+            </icon>
+            <str> Chunk X: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Off: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} {white}Facing {gold}{finedirection}</str>
+            <if>
+                <var>slimechunk</var>
+                <str> {gold}SlimeChunk{white}</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:torch</str>
+            </icon>
+            <str> Light: </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>light</var>
+            <str> {white}(Feet: </str>
+            <max>
+                <var>lightfeet</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightfeet</var>
+            <str>{white})</str>
+        </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <var>snowing</var>
+                <str>  It is {darkgreen}{underline}Snowing{reset}</str>
+            </if>
+            <if>
+                <var>raining</var>
+                <str>  It is {darkgreen}{underline}Raining{reset}</str>
+            </if>
+            <if>
+                <var>thundering</var>
+                <str> and {darkgreen}{underline}Thundering{reset}.</str>
+            </if>
+        </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                <concat>
+                    <icon>
+                        <str>textures/items/diamond_pickaxe.png</str>
+                        <num>0</num>
+                        <num>0</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <equal>
+                        <var>chunkoffsetx</var>
+                        <num>7</num>
+                    </equal>
+                    <equal>
+                        <var>chunkoffsetz</var>
+                        <num>7</num>
+                    </equal>
+                </and>
+                <concat>
+                    <if>
+                        <and>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                        </and>
+                        <str>      </str>
+                    </if>
+                    <str>  You are at the {darkred}center {white}of the chunk.</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <str>  Nearest players:</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  1) {gold}{nearbyplayername0}{white}({nearbyplayerdistance0}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername1}{white}({nearbyplayerdistance1}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
+            </if>
         </line>
     </lines>
-    <lines at="bottomleft">
+    <lines at="middleleft">
         <line>
             <var>equippedicon</var>
             <str> </str>
-            <operation>
+            <op>
                 <str>ge</str>
                 <pct>
                     <var>equippeddamageleft</var>
@@ -85,21 +304,141 @@
                 <num>20</num>
                 <num>10</num>
                 <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
                 <str/>
-            </operation>
+            </op>
             <max>
                 <var>equippeddamageleft</var>
                 <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <str>{equippeddamageleft} {white}/ {yellow}{equippedmaxdamage}</str>
                 <var>equippedname</var>
             </max>
         </line>
         <line>
+            <var>helmeticon</var>
             <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft} {white}/ {yellow}{helmetmaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>chestplateicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft} {white}/ {yellow}{chestplatemaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>leggingsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft} {white}/ {yellow}{leggingsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>bootsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft} {white}/ {yellow}{bootsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+    <lines at="bottomcenter">
+        <line>
+                <icon>
+                    <str>minecraft:iron_chestplate</str>
+                </icon>
+            <str> Armor: {lightgray}{armorpoints}$f                                         </str>
+                <icon>
+                    <str>minecraft:leather_boots</str>
+                </icon>
+            <str> Speed: {cyan}</str>
+                <round>
+                    <num>{speed}</num><num>1</num>
+                </round>
+        </line>
+        <line>
+                <icon>
+                    <str>minecraft:apple</str>
+                </icon>
+            <str> HP: {darkred}{healthpoints}$f                              </str>
+                <icon>
+                    <str>minecraft:bread</str>
+                </icon>
+            <str> Hunger: {indigo}{foodpoints}{white}/{yellow}{foodsaturation}$f</str>
         </line>
     </lines>
     <lines at="bottomright">
@@ -174,105 +513,6 @@
                 <str>{potionduration8} {potionicon8}</str>
                 <str/>
             </max>
-        </line>
-        <line>
-            <str> </str>
-        </line>
-        <line>
-            <operation>
-                <str>ge</str>
-                <pct>
-                    <var>helmetdamageleft</var>
-                    <var>helmetmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </operation>
-            <max>
-                <var>helmetdamageleft</var>
-                <num>0.5</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>helmeticon</var>
-        </line>
-        <line>
-            <operation>
-                <str>ge</str>
-                <pct>
-                    <var>chestplatedamageleft</var>
-                    <var>chestplatemaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </operation>
-            <max>
-                <var>chestplatedamageleft</var>
-                <num>0.5</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>chestplateicon</var>
-        </line>
-        <line>
-            <operation>
-                <str>ge</str>
-                <pct>
-                    <var>leggingsdamageleft</var>
-                    <var>leggingsmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </operation>
-            <max>
-                <var>leggingsdamageleft</var>
-                <num>0.5</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>leggingsicon</var>
-        </line>
-        <line>
-            <operation>
-                <str>ge</str>
-                <pct>
-                    <var>bootsdamageleft</var>
-                    <var>bootsmaxdamage</var>
-                </pct>
-                <num>50</num>
-                <num>20</num>
-                <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-            </operation>
-            <max>
-                <var>bootsdamageleft</var>
-                <num>0.5</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
-                <str/>
-            </max>
-            <str> </str>
-            <var>bootsicon</var>
         </line>
     </lines>
 </config>

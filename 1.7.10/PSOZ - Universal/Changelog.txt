@@ -48,3 +48,6 @@ v1.3.3
 v2.0.0
     Complete recreation from scratch
 	- Complete Universal Mixpack to seperate out non-GTNH mods from GTNH specific Pack
+
+MC1.7.10-Universal v2.0.1
+    - Update Sync with GTNH v2.0.4
