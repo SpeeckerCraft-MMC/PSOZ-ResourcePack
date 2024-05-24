@@ -63,3 +63,8 @@ v2.0.2
 v2.0.3
     Added:
         - IngameInfoXML config file to load from rp
+
+MC1.7.10-GTNH v2.0.4
+    Fixed:
+        - Fixed Crop Managers AGAIN!
+        - ReAdded the BQ-Textures
