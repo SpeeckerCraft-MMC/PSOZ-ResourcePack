@@ -59,3 +59,7 @@ v2.0.1
 v2.0.2
     - Due to Bibliocraft refusing to work with special characters in resourcepack folder(s) names it had to be changed.
     - In turn of the above event the mcmeta got updated and is now used for build versioning documentation
+
+v2.0.3
+    Added:
+        - IngameInfoXML config file to load from rp
