@@ -69,3 +69,8 @@ MC1.7.10-GTNH v2.0.4
         - Fixed Crop Managers AGAIN!
         - ReAdded the BQ-Textures
         - Fixed git-issue #1
+
+MC1.7.10-GTNH v2.0.5
+    Fixed:
+        - Missing Texture Error for:
+            - Minecraft: Fern & Mushrooms
